@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.progress {
+  width: 1440px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+}
+.progressbar {
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+}

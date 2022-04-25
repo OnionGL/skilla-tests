@@ -1,0 +1,55 @@
+.call {
+  height: 1080px;
+  background: #e5e5e5;
+  width: 1720px;
+}
+.call__container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 142px;
+}
+.middle__call_button {
+  background: #d8e4fb;
+  border: 1px solid #adbfdf;
+  box-sizing: border-box;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+  color: #122945;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.good__call_button {
+  background: #dbf8ef;
+  border: 1px solid #28a879;
+  box-sizing: border-box;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+.table__head {
+  color: #899cb1;
+}
+.button__search {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #005ff8;
+  border-radius: 4px;
+  text-align: center;
+}
+.rotateUp {
+  transform: rotate(-180deg);
+}

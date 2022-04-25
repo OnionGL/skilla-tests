@@ -1,0 +1,39 @@
+.icon {
+  margin-right: 10px;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #005ff8;
+  border-radius: 4px;
+  margin-top: 50px;
+  text-align: center;
+}
+.button:active {
+  background: rgb(58, 128, 241);
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #9b9fae;
+}
+.link:hover,
+.link:focus-within {
+  background: rgba(216, 228, 251, 0.32);
+  border-left: 3px solid #005ff8;
+  align-items: center;
+}
+.link:focus-within::after {
+  content: url("../../image/icon/navdot.png");
+  margin: 10px 10px 0 0;
+}
